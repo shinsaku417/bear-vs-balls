@@ -43,7 +43,7 @@ window.onload = function() {
               this.count++;
               this.frame = this.count % 3;
             }
-            if (core.input.right && this.x < 640 - this.powerup) {
+            if (core.input.right && this.x < 600 - this.powerup) {
               this.x += 10 + this.powerup;
               this.count++;
               this.frame = this.count % 3;
